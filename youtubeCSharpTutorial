@@ -1,0 +1,90 @@
+//String
+            string text; //nedefinovaný string text
+            string textik = "Ahoj"; //předdefinovaný string textik
+            Console.WriteLine("Ahoj"); //vypíše text 'Ahoj'
+            //Int
+            int num; //nedefinovaný integer num
+            int nums = 999; //předdefinovaný integer nums
+            Console.WriteLine(456); //vypíše číslo 456
+            
+            //Write&Read
+            Console.Write("Zadejte hodnotu: "); //můžeme zadat hodnotu ještě v řádku
+            Console.WriteLine("Zadejte hodnotu: "); //zadáváme hodnotu pod řádkem
+            Console.Read(); //přečte znak
+            Console.ReadKey(); //přečte klávesu
+            Console.ReadLine(); //přečte celý řádek
+            //Pole
+            string[] jmena = new string[5]; //nové pole jmena s pěti volnými místy
+            //hodnoty můžeme zadávat takto
+            jmena[0] = "Jana";
+            jmena[1] = "Patrik";
+            jmena[2] = "Jan";
+            jmena[3] = "Kuba";
+            jmena[4] = "David";
+            string[] dny = {"Pondělí", "Úterý", "Středa" }; //nemusíme zadávat 'new string [počet míst]'
+
+            int[] cisla = new int[2]; //nové pole cisla s dvěmi volnými místy
+            //hodnoty můžeme zadávat takto
+            cisla[0] = 44;
+            cisla[1] = 1888;
+            int[] loterie = {154, 77, 2, 9, 88 }; //nemusíme zadávat 'new string [počet míst]'
+            //If, else if, else
+            int penize = 15;
+            if(penize > 50) //pokud penize jsou větší než 50
+            {
+                Console.WriteLine("Můžeš si dovolit jídlo a pití");
+                Console.Read();
+            } else if(penize >= 11 && penize <= 49) //pokud penize jsou v rozsahu 11 až 49 
+            {
+                Console.WriteLine("Můžeš si dovolit pouze jídlo či pití");
+                Console.Read();
+            } else //pokud penize nesouhlasí s předchozími podmínkami
+            {
+                Console.WriteLine("Nemůžeš si dovolit nic");
+                Console.Read();
+            }
+            //Switch
+            string ciselko = "0";
+            int nn = int.Parse(ciselko); //přeparsovali jsme string ciselko do integeru nn
+            switch(nn) //vstoupí do switche, který kouká na případy (case) pro nn
+            {
+                case 1: //případ 1
+                    Console.WriteLine("Vaše číslo je jedna");
+                    break;
+                case 2: //případ 2
+                    Console.WriteLine("Vaše číslo jsou dva");
+                    break;
+                case 3: //případ 3
+                    Console.WriteLine("Vaše číslo jsou tři");
+                    break;
+                default:
+                    Console.WriteLine("Zadal jsi špatnou hodnotu!");
+                    break;
+            }Console.Read();
+            //While, do-while
+            int i = 10;
+            while(i >= 0) //cykluje do doby, dokud int i se bude rovnat 0
+            {
+                Console.Write(i-- +" ");
+            }Console.Read();
+            string input;
+            do //tak bude dělat toto
+            {
+                Console.Write("Zadejte vaše jméno: ");
+                input = Console.ReadLine();
+            } while (input != "Michael"); //když string input se nebude rovnat 'Michael' ↑
+            Console.WriteLine("dokázal jsi to, Michaeli"); //kdy se string input rovná 'Michael'
+            Console.Read();
+            //For
+            for(int n = 0; n <= 10; n++) //cykluje určitou dobu, dokud int n se nerovná 10
+            {
+                Console.Write(n +" ");
+            }Console.Read();
+            //Foreach
+            string[] auta = {"Škoda", "Volkswagen", "Opel", "BMW", "Audi" };
+            Array.Sort(auta); //srovná pole auta podle abecedy A-Z
+            Array.Reverse(auta); //obrátí pole auta podle abecedy Z-A
+            foreach(string n in auta)
+            {
+                Console.WriteLine(n);
+            } Console.Read();
