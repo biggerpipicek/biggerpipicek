@@ -1,0 +1,37 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace csharpZaklady
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //datové typy
+            //string, int, char, float, double, boolean, var
+            string jmeno;
+            int cislo = 124;
+            char znak = 'T';
+            float desJedna = 142.65F;
+            double desDva = 142.65D;
+            bool jePrihlasen = true;
+            var vek = 89;
+            Console.WriteLine(vek);
+            Console.WriteLine(cislo);
+            Console.WriteLine(znak);
+            Console.WriteLine(desJedna);
+            Console.WriteLine(desDva);
+            Console.WriteLine(jePrihlasen);
+
+            Console.Write("Zadejte vaše jméno: ");
+            jmeno = Console.ReadLine();
+            Console.Write("Zadejte váš věk: ");
+            vek = int.Parse(Console.ReadLine());
+            Console.Write("Vaše jméno je {0} a je vám {1} let!",jmeno, vek);
+            Console.Read();
+        }
+    }
+}
