@@ -1,0 +1,27 @@
+/* JavaScript Kód *\
+
+function zobrazVice() {
+    var text = document.getElementById("text");
+    var vice = document.getElementById("zobrazVice");
+    var mene = document.getElementById("zobrazMene");
+
+    vice.style.display = "none";
+    text.style.display = "block";
+    mene.style.display = "block";
+}
+
+function zobrazMene() {
+    var text = document.getElementById("text");
+    var vice = document.getElementById("zobrazVice");
+    var mene = document.getElementById("zobrazMene");
+
+    vice.style.display = "block";
+    text.style.display = "none";
+    mene.style.display = "none";
+}
+
+/* Co bylo v HTML kódu *\
+
+<span id="zobrazVice">zobrazit Více!</span>
+<span id="text">Lorem Ipsum</span>
+<span id="zobrazMene">Zobrazit Méně!</span>
