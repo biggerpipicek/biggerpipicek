@@ -1,0 +1,10 @@
+<script>
+  //var ← Nejpoužívanější proměnná.
+  //let ← Podobná const, můžeme přistupovat pouze v bloku kódu zabaleného {}.
+  //const ← Po nastavení hodnoty nelze změnit.
+  
+  var jmeno = "Mitchel"; ← Proměnná jmeno s hodnotou Mitchel
+  var vek = 96; ← Proměnná vek s hodnotou 96
+  //console.log("Ahoj" + jmeno + "! Je ti" + vek + " let!"); ← Text se vypíše do konzole
+  document.write("Ahoj" + jmeno + "! Je ti" + vek + " let!"); ← Text se vypíše do stránky
+</script>
