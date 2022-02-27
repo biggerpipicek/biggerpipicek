@@ -1,0 +1,17 @@
+//Příklad 1 - Zadávání jmén
+jmeno = input("Jaké je vaše jméno: ")
+if jmeno == "Mitchel":
+    print("Ahoj Mitchele, jak se máš?")
+elif jmeno == "Filip":
+    print("Ahoj Filipe, jak se máš?")
+else:
+    print("Ahoj "+jmeno+", jak se máš?")
+
+//Příklad 2 - Peníze
+penize = input("Kolik máš peněz: ")
+if int(penize) >= 100:
+    print("Máš dostatek peněz na to, aby sis dovolil, jak jídlo, tak i pití! Tvůj měšec činí: "+penize)
+elif int(penize) >= 10 and int(penize) <= 99:
+    print("Můžeš si dovolit buď jídlo či pití. Tvůj měšec činí: "+penize)
+else:
+    print("Nemůžeš si dovolit ani jednu věc, radši si to šetři! Tvůj měšec činí: "+penize)
