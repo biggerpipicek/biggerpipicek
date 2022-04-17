@@ -1,0 +1,57 @@
+private void radioButton1_CheckedChanged(object sender, EventArgs e) //Kružnice
+        {
+            heights.Clear();
+            heights.Enabled = false;
+        }
+
+        private void radioButton2_CheckedChanged(object sender, EventArgs e) //Elipsa
+        {
+            heights.Enabled = true;
+        }
+
+        private void obdelnik_CheckedChanged(object sender, EventArgs e) //čtyřúhelník
+        {
+            heights.Enabled = true;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            int x = int.Parse(xcoords.Text);
+            int y = int.Parse(ycoords.Text);
+            int width = int.Parse(widths.Text);
+            int height = 0;
+
+            Graphics panel = panel1.CreateGraphics();
+            Pen tuzka = new Pen(Color.Red, 5);
+
+            if(kruznice.Checked == true)
+            {
+                //height = 0;
+                panel.DrawEllipse(tuzka, x, y, width, width);
+                panel.DrawEllipse(tuzka, (x-15), (y-15), (width+30), (width+30));
+                panel.DrawEllipse(tuzka, (x-30), (y-30), (width+60), (width+60));
+            }
+            else if(elipsa.Checked == true)
+            {
+                height = int.Parse(heights.Text);
+                panel.DrawEllipse(tuzka, x, y, width, height);
+                panel.DrawEllipse(tuzka, (x - 15), (y - 15), (width + 0), (height + 30));
+                panel.DrawEllipse(tuzka, (x - 30), (y - 30), (width + 60), (height + 60));
+            }
+            else if(obdelnik.Checked == true)
+            {
+                height = int.Parse(heights.Text);
+                panel.DrawRectangle(tuzka, x, y, width, height);
+                panel.DrawRectangle(tuzka, (x - 15), (y - 15), (width + 30), (height + 30));
+                panel.DrawRectangle(tuzka, (x - 30), (y - 30), (width + 60), (height + 60));
+            }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            xcoords.Clear();
+            ycoords.Clear();
+            widths.Clear();
+            heights.Clear();
+            panel1.Refresh();
+  }
