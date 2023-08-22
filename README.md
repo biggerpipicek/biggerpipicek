@@ -1,12 +1,11 @@
 - 👋 Hi, I’m @biggerpipicek!
 - 👀 I’m interested in Recording videos, Graphic design and Editing videos, Programming and Coding..
 - 🌱 I’m currently in grasp of C#, Python, HTML&CSS, JavaScript, PHP and learing Pascal, PHP, Java.
-- 💞️ I’m looking to collaborate on Game Development, Website/App Development and also Graphic Design.
+- 💞️ I’m looking to collaborate on Game Development, Website/App Development and also Graphic Design.<br>
 - 📫 How to reach me, via:
-      • e-mail: kczay123@gmail.com;
-      • instagram: @mison_phillips;
-      • youtube: strýček pipíček;
-      • discord: bigpipicek#6958;
+      • e-mail: kczay123@gmail.com;<br>
+      • instagram: @mison_phillips;<br>
+      • discord: bigpipicek#6958;<br>
 
 <!---
 biggerpipicek/biggerpipicek is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
