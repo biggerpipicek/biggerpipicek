@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @biggerpipicek!
-- 👀 I’m interested in Recording videos, Graphic design and Editing videos, Programming and Coding..
+- 👀 I’m interested in Graphic design and Editing videos and Programming..
 - 🌱 I’m currently in grasp of C#, Python, HTML&CSS, JavaScript, PHP and learing Pascal, PHP, Java.
 - 💞️ I’m looking to collaborate on Game Development, Website/App Development and also Graphic Design.<br>
 - 📫 How to reach me, via:<br>
