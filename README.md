@@ -3,9 +3,9 @@
 - 🌱 I’m currently in grasp of C#, Python, HTML&CSS, JavaScript, PHP and learing Pascal, PHP, Java.
 - 💞️ I’m looking to collaborate on Game Development, Website/App Development and also Graphic Design.<br>
 - 📫 How to reach me, via:<br>
-      • e-mail: kczay123@gmail.com;<br>
+      • e-mail: michael.phillips@seznam.cz;<br>
       • instagram: @mison_phillips;<br>
-      • discord: bigpipicek#6958;<br>
+      • discord ID: 996118111935795200;<br>
 
 <!---
 biggerpipicek/biggerpipicek is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
