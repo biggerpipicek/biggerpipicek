@@ -1,4 +1,4 @@
-- 👋 Hi, I’m Michael!
+- 👋 Hi, I’m pip!
 - 👀 I’m interested in Graphic design and Editing videos and Programming..
 - 🌱 I’m currently in grasp of C#, Python, HTML&CSS, JavaScript, PHP and learing Pascal, PHP, jQuery, Laravel.
 - 💞️ I’m looking to collaborate on Game Development, Website/App Development and also Graphic Design.<br>
